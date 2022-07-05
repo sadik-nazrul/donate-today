@@ -125,7 +125,7 @@ p{
 .food-con{
     margin: 20px;
     padding: 30px;
-    box-shadow: ;
+    border-radius: 6px;
 }
 .food{
     background-color: #4f9da61a;
@@ -135,4 +135,47 @@ p{
 }
 .education{
     background-color: #FFF4D6;
+}
+/* Section eight */
+.eighth-container{
+    padding-bottom: 70px;
+}
+.sign-up{
+    width: 800px;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #FFF4D6;
+}
+.newslatter{
+    width: 50%;
+    padding: 13px;
+    border-radius: 0;
+}
+.sbs{
+    width: 20%;
+    background-color: #FF5959;
+    border-radius: 0;
+    padding: 13px;
+    color: white;
+    margin-left: -3px;
+    font-weight: bold;
+    font-size: 16px;   
+}
+/* Footer */
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 40px 0;
+}
+footer h5{
+    margin: 0;
+    font-family: ;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FF5959;
+}
+footer p{
+    color: white;
 }
