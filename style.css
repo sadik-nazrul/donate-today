@@ -56,6 +56,7 @@ p{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 16px;
 }
 /* Hero banner */
 .hero-container{
@@ -101,7 +102,7 @@ p{
     width: 700px;
     margin: auto;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 .email{
     width: 100%;
@@ -115,4 +116,23 @@ p{
 ::placeholder{
     color: #B3B3B3;
     font-weight: bold;
+}
+/* Sixth section */
+.sixth-container{
+    width: 1200px;
+    margin: auto;
+}
+.food-con{
+    margin: 20px;
+    padding: 30px;
+    box-shadow: ;
+}
+.food{
+    background-color: #4f9da61a;
+}
+.shelter{
+    background-color: #ff59591a;
+}
+.education{
+    background-color: #FFF4D6;
 }
