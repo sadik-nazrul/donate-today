@@ -10,6 +10,7 @@ h1{
     font-weight: 600;
     font-size: 50px;
     color: white;
+    margin: 0;
 }
 h2{
     font-family: Inter;
@@ -28,4 +29,34 @@ p{
     font-weight: 400;
     font-size: 18px;
     color: #707070;
+}
+/* Common classes */
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+}
+.btn{
+    background-color: #FF5959;
+    border-radius: 6px;
+    padding: 13px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* Hero banner */
+.hero-container{
+    height: 80vh;
+    background-image: url(./Images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.main-container{
+    width: 700px;
+    margin: auto;
+}
+.main-container p{
+    color: white;
+    padding-bottom: 20px;
 }
